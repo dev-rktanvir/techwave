@@ -1,0 +1,30 @@
+/* Header */
+.header{
+    border-bottom: 1px solid var(--clr-border);
+}
+/* Navbar */
+.navbar{
+    padding: 14px;
+}
+.logo {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--clr-white);
+}
+
+.navlinks {
+    gap: 32px;
+}
+
+.navlinks a {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--clr-white);
+}
+
+.navBtn {
+    gap: 4px;
+}
+.mobile-menu{
+    display: none;
+}

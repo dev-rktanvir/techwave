@@ -1,0 +1,26 @@
+/* Responsive for Medium devices */
+@media screen and (max-width: 992px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+}
+
+/* Responsive for Mobile */
+@media screen and (max-width: 576px) {
+
+    /* Navbar */
+    .navlinks,
+    .navBtn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
