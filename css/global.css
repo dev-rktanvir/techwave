@@ -1,0 +1,63 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --clr-bg-body: #1A0B2E;
+    --clr-bg-section: #230E3D;
+    --clr-bg-card: #rgba(53, 17, 101, 0.4);
+    --clr-green: #00FF88;
+    --clr-white: #ffffff;
+}
+
+/* Global css */
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--clr-white);
+    border: none;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--clr-white);
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: var(--clr-white);
+}
