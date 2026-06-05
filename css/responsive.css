@@ -54,6 +54,22 @@
     .about-stats {
         flex-wrap: wrap;
         padding-top: 50px;
+        justify-content: center;
+    }
+
+    /* Why choose section */
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .audio,
+    .mobile,
+    .global,
+    .interview,
+    .resources {
+        grid-column: auto;
+        grid-row: auto;
     }
 }
 

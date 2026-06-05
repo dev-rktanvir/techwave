@@ -133,6 +133,7 @@
 
 .about-stats {
     padding: 80px 12px 0;
+    gap: 24px;
 }
 
 .about-stats h3 {
@@ -144,4 +145,55 @@
 
 .about-stats p {
     text-transform: uppercase;
+}
+
+/* Why choose section */
+.why-choose {
+    background-color: var(--clr-bg-section);
+    padding: 120px 12px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    border-radius: 40px;
+    padding: 40px;
+    background-color: var(--clr-card-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    width: 60px;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--clr-white);
+    margin: 16px 0;
+}
+
+.audio {
+    grid-row: 1/3;
+}
+
+.mobile,
+.global {
+    grid-column: 2/4;
+}
+
+.interview {
+    grid-column: 1 / 3;
+}
+
+.resources {
+    grid-column: 3 / 4;
 }
