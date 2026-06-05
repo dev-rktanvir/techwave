@@ -33,19 +33,28 @@
 }
 
 /* Hero section */
-.hero-wrapper{
+.hero {
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 25% center;
+}
+
+.hero-wrapper {
     text-align: center;
     padding: 100px 0;
     max-width: 550px;
     margin: 0 auto;
     gap: 40px;
 }
-.hero h1{
+
+.hero h1 {
     font-weight: 800;
     font-size: 3.75rem;
     color: var(--clr-white);
     margin-bottom: 8px;
 }
+
 .image-container {
     width: 350px;
     height: 350px;
@@ -80,19 +89,23 @@
     right: 0;
     transform: translate(-60%, 20%);
 }
-.buttons{
+
+.buttons {
     margin-top: 24px;
     gap: 8px;
 }
-.hero-btn{
+
+.hero-btn {
     gap: 8px;
     font-weight: 500;
 }
-.hero-btn img{
+
+.hero-btn img {
     width: 20px;
 
 }
-.btn2{
+
+.btn2 {
     background: none;
     border: 1px solid var(--clr-green);
     color: var(--clr-green);
