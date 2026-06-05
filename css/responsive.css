@@ -1,6 +1,11 @@
 /* Responsive for Medium devices */
 @media screen and (max-width: 992px) {
 
+    /* Global */
+    .section-title {
+        font-size: 2.5rem;
+    }
+
     /* Navbar */
     .navbar {
         padding: 12px;
@@ -34,6 +39,21 @@
 
     .new-btn {
         transform: translate(0%, 20%);
+    }
+
+    /* About Section */
+    .about {
+        padding: 50px 12px;
+    }
+
+    .about-content p {
+        max-width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .about-stats {
+        flex-wrap: wrap;
+        padding-top: 50px;
     }
 }
 

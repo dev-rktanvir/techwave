@@ -112,3 +112,36 @@
     gap: 8px;
     font-weight: 500;
 }
+
+/* About Section */
+.about {
+    padding: 50px 0 120px;
+    text-align: center;
+}
+
+.about-content {
+    border-bottom: 1px solid #ffffff1a;
+}
+
+.about-content p {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 16px;
+    padding-bottom: 80px;
+}
+
+.about-stats {
+    padding: 80px 12px 0;
+}
+
+.about-stats h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--clr-green);
+    margin-bottom: 16px;
+}
+
+.about-stats p {
+    text-transform: uppercase;
+}
