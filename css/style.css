@@ -197,3 +197,47 @@
 .resources {
     grid-column: 3 / 4;
 }
+
+/* Featured section */
+.featured {
+    padding: 120px 12px;
+}
+
+.featured-cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.featured-cards h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--clr-white);
+}
+
+.featured-content {
+    padding: 24px;
+    background-color: var(--clr-card-bg);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.featured-text {
+    margin: 16px 0;
+}
+
+.time {
+    gap: 8px;
+}
+
+.time img {
+    width: 20px;
+}
+
+.time p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--clr-green);
+}

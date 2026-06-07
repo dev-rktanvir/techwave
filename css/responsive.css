@@ -71,6 +71,15 @@
         grid-column: auto;
         grid-row: auto;
     }
+
+    /* Featured section */
+    .featured {
+        padding: 60px 12px;
+    }
+
+    .featured-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Responsive for Mobile */
@@ -86,5 +95,8 @@
         display: block;
     }
 
-
+    /* Featured section */
+    .featured-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
