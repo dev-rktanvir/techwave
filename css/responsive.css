@@ -80,6 +80,21 @@
     .featured-cards {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Host section */
+    .host {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .host-content {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .host-img {
+        width: 300px;
+    }
 }
 
 /* Responsive for Mobile */
