@@ -95,6 +95,21 @@
     .host-img {
         width: 300px;
     }
+
+    /* Footer style */
+    footer {
+        padding: 40px 12px;
+    }
+
+    footer h2 {
+        font-size: 3rem;
+    }
+
+    .medias {
+        flex-wrap: wrap;
+        margin: 24px 0;
+        gap: 24px;
+    }
 }
 
 /* Responsive for Mobile */
@@ -113,5 +128,11 @@
     /* Featured section */
     .featured-cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Footer style */
+    footer{
+        background-size: 180% 100%;
+        background-position: top center;
     }
 }
