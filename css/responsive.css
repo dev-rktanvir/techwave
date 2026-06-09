@@ -90,10 +90,14 @@
     .host-content {
         flex-direction: column;
         padding: 30px;
+        text-align: center;
     }
 
     .host-img {
         width: 300px;
+    }
+    .social{
+        justify-content: center;
     }
 
     /* Footer style */
